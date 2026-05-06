@@ -143,6 +143,7 @@ Key insights from feature importance visualization
 This analysis has demonstrated that a machine learning model is capable of predicting customer exits with strong performance. The tuned decision tree model provided the best balance between identifying at-risk customers and minimizing false alarms.
 
 The analysis shows that customer exits are largely influenced by service experience, usage behavior, and customer tenure rather than simple demographic factors. Importantly, the model demonstrates that exits are predictable and can be proactively managed, and retention efforts prioritized.
+By leveraging these insights, SyriaTel can transition from a reactive to a proactive customer retention strategy, significantly reducing customer attrition and associated revenue loss.”
 
 # Resources and links
 - The Silent Goodbye.ipynb
@@ -150,4 +151,4 @@ The analysis shows that customer exits are largely influenced by service experie
 - The Silent Goodbye.pptx
 - syria_tel.csv
 
-By leveraging these insights, SyriaTel can transition from a reactive to a proactive customer retention strategy, significantly reducing customer attrition and associated revenue loss.”
+
