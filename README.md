@@ -1,6 +1,6 @@
 # The Silent Goodbye: "Predicting customer exits before it happens."
 
-# Overview
+# Project Overview
 The telecom industry is characterized by customer acquisition and retention, and an ever-evolving landscape of innovations that requires companies to predict customer behavior and develop response mechanisms. Customer retention is imperative as acquiring new customers is more expensive than retaining them; building brand loyalty is therefore a key driver for telecom companies. Understanding why customers opt out of the industry can reduce exits or at least predict when they will exit and develop measures to retain them. This study focuses on building a machine learning classifier to predict whether a customer will likely exit SyriaTel in the near future. By identifying at-risk or dissatisfaction drivers’ customers early, SyriaTel can take proactive measures to improve customer satisfaction, develop targeted approaches, and reduce exits and eventual revenue loss.
 
 # Business Problem
