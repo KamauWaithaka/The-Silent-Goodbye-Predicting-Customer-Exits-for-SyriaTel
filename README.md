@@ -145,9 +145,9 @@ This analysis has demonstrated that a machine learning model is capable of predi
 The analysis shows that customer exits are largely influenced by service experience, usage behavior, and customer tenure rather than simple demographic factors. Importantly, the model demonstrates that exits are predictable and can be proactively managed, and retention efforts prioritized.
 
 # Resources and links
-The Silent Goodbye.ipynb
-The Silent Goodbye.pdf
-The Silent Goodbye.pptx
-syria_tel.csv
+- The Silent Goodbye.ipynb
+- The Silent Goodbye.pdf
+- The Silent Goodbye.pptx
+- syria_tel.csv
 
 By leveraging these insights, SyriaTel can transition from a reactive to a proactive customer retention strategy, significantly reducing customer attrition and associated revenue loss.”
