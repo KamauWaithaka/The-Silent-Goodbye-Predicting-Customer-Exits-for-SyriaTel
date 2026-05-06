@@ -1,36 +1,36 @@
 # The Silent Goodbye: "Predicting customer exits before it happens."
-# Overview
-The telecom industry is characterized by customer acquisition, retention, and the ever-evolving field of innovations that requires companies to predict customer behaviors and develop response mechanism. Customer retention is imperative as acquiring new customers is expensive than retaining, building brand loyalty is therefore key driver for telecom companies. 
 
-By understanding why customers opt out of the industry can reduce exits or at least predict when they will exit and develop measures to retain them. This study focuses on building a machine learning classifier to predict whether a customer will likely exit SyriaTel in the near future. By identifying at-risk or dissatisfaction drivers’ customers early, SyriaTel can take proactive measures to improve customer satisfaction, develop targeted approaches and reduce exits and eventual revenue loss.
+# Overview
+The telecom industry is characterized by customer acquisition, retention, and the ever-evolving field of innovations that requires companies to predict customer behaviors and develop response mechanisms. Customer retention is imperative as acquiring new customers is more expensive than retaining, building brand loyalty is therefore a key driver for telecom companies. Understanding why customers opt out of the industry can reduce exits or at least predict when they will exit and develop measures to retain them. This study focuses on building a machine learning classifier to predict whether a customer will likely exit SyriaTel in the near future. By identifying at-risk or dissatisfaction drivers’ customers early, SyriaTel can take proactive measures to improve customer satisfaction, develop targeted approaches and reduce exits and eventual revenue loss.
+
 # Business Problem
 SyriaTel is experiencing unprecedented customer attrition, where a significant portion of its subscribers exit their network over time. This exist have cascading effect on revenue loss, increased marketing cost and acquisition costs and eventually lack of value for money for the customers. The exits are silent, and reflect overtime and most telecommunication comes notice when it’s too late. This data analysis project seeks to solve that problem by developing a data driven solution that predicts exits before they happen and allow SyriaTel to develop appropriate intervention measures. 
+
 # Business Understanding
 In the telecom sector, customer exits are influenced by multiple factors, including:
-
 - Service quality (e.g., dropped calls, network issues) 
 - Pricing and billing transparency 
 - Customer support experience 
 - Usage behavior (declining activity can signal disengagement) 
-
 From a telecom business perspective, not all customers are equally valuable. Customer retention is important and that what keeps the business running and profitable. Therefore, any model developed should not only predict exits but also help prioritize retention efforts. Understanding these dynamics allows us to translate raw data into meaningful business insights and align the model with real-world decision-making.
+
 ## Key Business Questions
 This analysis is guided by practical, decision-oriented questions:
-
 - Which customer demographic is most likely to exit/opt-out soon? 
 - What are the driving factors that are most strongly associated with exits? 
 - Can SyriaTel identify early warning signals/indicators before a customer exists? 
 - How accurately can SyriaTel predict exits using historical data? 
 - What actionable insights can SyriaTel deploy to retain high-risk customers? 
+
 ## Key Objectives of the Study / Data Analysis
 This study aims to achieve the following:
-
 - Create a reliable classification model to predict whether a customer will exit. 
 - Evaluate the model performance using appropriate metrics on their ability to predict. 
 - Identify key drivers of exits and insights fueling customers exits 
 - Provide actionable insights that SyriaTel implement. 
 - Propose retention strategies guided by data for high-risk customers
-- ## Data set dictionary
+
+## Data set dictionary
 - - **State**: Location of the customer                 
 - **account length**: period of time he/she has been a customer 
 - **area code**: Location code 
@@ -52,23 +52,23 @@ This study aims to achieve the following:
 - **total intl charge**; total amount of int calls
 - **customer service calls**; total number of calls to customer service 
 - **churn**: exits
-- 
-- # Exploration Data Analysis
-- ## Loading dataset with necessary libraries.
+  
+# Exploration Data Analysis
+## Loading dataset with necessary libraries.
 - Loading libraries
-- Loading dataset 'syria_tel.csv'
-- # Data Understanding
+- Loading dataset 'syria_tel.csv'# Data Understanding
 - telecom_syria.info()
 - telecom_syria.describe()
 - telecom_syria.head()
 - telecom_syria.isna().sum().sort_values(ascending=False)
-- Insights from the dataset.
 
+Insights from the dataset.
 1. The data above shows 3,333 entries (rows) and 21 columns..
 2. Although churn is a categorical (boolean) variable, it will be encoded as a binary numerical variable (0 and 1) to make it compatible with machine learning algorithms.
 3. Some columns will be dropped as they are not necessary such as (phone number, state, charges and area code).
 4. Some data requires feature engineering, which will be expounded later.
 5. There is no missing data in all the columns and rows in our data set.
+
 ## Data Cleaning
 Dropping columns
 Creating customer usage patterns and behaviours.
