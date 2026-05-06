@@ -133,16 +133,16 @@ Key insights from feature importance visualization
 3. There is high vulnerability of high data users, especially during daytime hours and charges, being most profitable, their retention is imperative to check revenue loss. While high usage typically signals value, for SyriaTel it is a risk indicator. Customers with over 250 total day minutes have an exit rate of 46.95%, compared to only 10.95% for normal users.
 
 4. Predictive Power: Using the Decision Tree (Tuned) model, we can now capture 73% of all actual churners before they leave, with a 66% accuracy rate on our intervention triggers..
-5. # Recommendations
-6. 1. High-value customers retention: A strategic retention strategy that targets customers' usage patterns like improved plans, charges and minutes. 
+# Recommendations
+1. High-value customers retention: A strategic retention strategy that targets customers' usage patterns like improved plans, charges, and minutes. 
 2. Improve customer experience, for example, fast resolutions of customer complaints, and monitor customers with repeated complaints. 
-3. Support desk "Red Flag" system to spot customers' spikes on 3rd calls and escalate the issue for further action. 
+3. Support desk "Red Flag" system to spot customers' spikes on the 3rd calls and escalate the issue for further action. 
 4. Package restructuring: Optimize on price and minutes to offer better packages like international plans or daytime offers. 
 5. Customer acquisition should be prioritized, review the onboarding experience, and improve new customer incentives for a period. 
 6. Targeted marketing focusing on high-risk customers and loyal customers. 
 7. Integrate daily/weekly exit scoring and link it to customer experience teams to follow up.
-8. # Conclusion
-9. This analysis has demonstrated that a machine learning model is capable of predicting customer exits with strong performance. The tuned decision tree model provided the best balance between identifying at-risk customers and minimizing false alarms.
+# Conclusion
+This analysis has demonstrated that a machine learning model is capable of predicting customer exits with strong performance. The tuned decision tree model provided the best balance between identifying at-risk customers and minimizing false alarms.
 
 The analysis shows that customer exits are largely influenced by service experience, usage behavior, and customer tenure rather than simple demographic factors. Importantly, the model demonstrates that exits are predictable and can be proactively managed and retention efforts prioritized.
 
