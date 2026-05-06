@@ -52,6 +52,7 @@ This study aims to achieve the following:
 - **total intl charge**; total amount of int calls
 - **customer service calls**; total number of calls to customer service 
 - **churn**: exits
+- 
 - # Exploration Data Analysis
 - ## Loading dataset with necessary libraries.
 - Loading libraries
@@ -101,15 +102,14 @@ Voicemail vs exits
 - ## Hyperparameter Tuning.
 - # Model Evaluation.
 - ## Confusion Matrix
-- Confusion Matrix Insights. 
-
+Confusion Matrix Insights. 
 1. Our model correctly predicted 533 loyal customers would stay, it managed to correctly predict 71 customers would exit and hence caught them.
 2. Our Model wrongly caught 37 loyal customers, these ones aren't exiting, while our model didn't catch 26 cusotmers. 
 3. Revenue protection: The model captures 73% of actual customer exits (71 out of 97), meaning the financial benefit of stopping these departures far outweighs the minor cost of the 37 false alarms.
 4. Focus on efficiency: Because 66% of flagged customers (71 out of 108) are truly at risk, SyriaTel avoids "margin erosion" by not wasting unnecessary discounts on the 37 loyal customers who were incorrectly flagged.
 5. Targeted intervention: For every 108 customers the model identifies, 71 are confirmed leavers, allowing management to move away from broad, expensive promotions toward a highly surgical, data-driven outreach.
-6. ## Models Comparison.
-7. Insights from Model Comparison 
+## Models Comparison.
+Insights from Model Comparison 
 
 1. The Decision Tree (Tuned) achieves the highest F1-Score of 0.70, indicating it provides the best overall balance between catching customer exits and maintaining accuracy.
 
